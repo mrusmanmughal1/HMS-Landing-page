@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: arial, helvetica;
+  font-size: large;
+}
+
+code {
+  font-family: arial, helvetica;
+}
+
+/* main front section  */
+.Main_section {
+  background-image: url("./assets/Images/header_img.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 90vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+}
+
+/* 
+Counter section  */
+.counter {
+  background-image: url("./assets/Images/counter.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-color: #cccccc; /* Used if the image is unavailable */
+
+  background-position: center; /* Center the image */
+}
+
+/* Pricing section  */
+.Ul-danger li {
+  list-style-image: url("./assets/Images/checkmark_red.png");
+}
+.Ul-primary li {
+  list-style-image: url("./assets/Images/checkmark_blue.png");
+}
+.Ul-success li {
+  list-style-image: url("./assets/Images/checkmark_green.png");
+}
+.card li {
+  font-size: larger;
+}
+/* package-include  section  */
+.bg-includes {
+  background-image: url("./assets/Images/package_bg.jpg");
+}
+
+/* features  */
+.features-list {
+  list-style: none;
+}
+ul.features li {
+  color: #000000;
+}
+/* getvalue section  css  */
+.Get-Value li {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.Get-Value p {
+  color: black;
+  margin: 1rem 0 1rem 0;
+  font-size: large;
+}
+.security-list {
+  display: inline-block;
+  list-style-type: disc;
+}
+.security-list li {
+  display: inline-block;
+}
+/* Features section  */
+.Management {
+  background-image: url("./assets/Images/features_bg.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 70vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+}
+i .bi {
+  cursor: pointer;
+}
